@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #16222A, #3A6073);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: transparent; 
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: font-size 0.3s;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.2em;
+        }
+
+        section {
+            margin: 20px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .section-box {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .container img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        ul.skills-list {
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        ul.skills-list li {
+            margin: 5px;
+            padding: 10px;
+            background-color: #13b11d45;
+            border-radius: 20px;
+            color: #333;
+            transition: font-size 0.3s;
+        }
+
+        ul.skills-list li:hover {
+            font-size: 1.1em;
+        }
+
+        a.contact-link {
+            text-decoration: none;
+            color: #cc0041;
+            margin-right: 10px;
+        }
+
+        a.contact-link:hover {
+            color: #cc0066;
+        }
+        #internship .section-box {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        #internship .container h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        #internship .container h3 {
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        #internship .container p {
+            color: #777;
+            line-height: 1.5;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#internship">Internship</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+       
+        <div class="container">
+            <img src="C:\Users\harshitha\Downloads\profile.jpg" alt="Profile">
+        </div>
+    </nav>
+</header>
+<main>
+    <section id="about" class="section">
+        <div class="section-box">
+            <h1 class="section-title">About Me</h1>
+            <p>"Hello! I'm Hemasree, currently pursuing a Bachelor's degree in Computer Science and Engineering at Gitam University.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="section-box">
+            <h1 class="section-title">Skills</h1>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C Language</li>
+                <li>Python </li>
+               
+            </ul>
+        </div>
+    </section>
+
+    <section id="internship" class="section">
+        <div class="section-box">
+            <h1 class="section-title">Internships</h1>
+            <div class="container">
+                <h2>Intrainz</h2>
+                <h3>Certifications</h3>
+                <p>I successfully completed an internship in cloud computing, gaining hands-on experience with leading platforms such as AWS, Azure, and GCP. This experience equipped me with skills in deploying, managing, and optimizing cloud-based solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="section-box">
+            <h1 class="section-title">Contact</h1>
+           <a href="https://www.linkedin.com/in/hemasree-yeniganti-30a03a257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a>
+        </div>
+    </section>
+</main>
+</body>
+</html>
